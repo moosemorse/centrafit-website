@@ -1,6 +1,6 @@
-import { Button } from "@/components/ui/button";
 import Image from "next/image"
 // import { ImageCarousel } from "@/components/ui/ImageCarousel";
+import { WaitingListModal } from "@/components/WaitingListModal";
 
 export default function Home() {
   // const carouselImages = [
@@ -48,9 +48,8 @@ export default function Home() {
         The next generation of training starts here, with your very own personalised fitness advisor powered by AI.
         </p>
 
-        <div className="space-x-3">
-          <Button variant="default" className="rounded-lg">Placeholder</Button>
-          <Button variant="secondary" className="rounded-lg">Placeholder</Button>
+        <div className="mt-8">
+          <WaitingListModal />
         </div>
       </div>
     </div>
