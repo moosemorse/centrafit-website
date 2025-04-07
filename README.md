@@ -30,6 +30,7 @@ This project is primarily built using the following technologies:
 - **TypeScript** (75.6%): Ensures type safety and enhances code maintainability.
 - **CSS** (24%): Provides styling to create a visually appealing interface.
 - **JavaScript** (0.4%): Adds interactivity to the website.
+- This includes: *Next.js*, *React*, *Tailwind CSS*, *Shadcn*, *Node.js*
 
 ## Getting Started
 
